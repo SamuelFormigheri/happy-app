@@ -1,11 +1,13 @@
 <h1 align="center">
-    <img alt="Happy" title="Happy" src="https://user-images.githubusercontent.com/62508848/96302086-88ef5d00-0fce-11eb-8560-7b8f9603adad.png" />
+    <img alt="Happy" title="Happy" src="https://user-images.githubusercontent.com/62508848/96302086-88ef5d00-0fce-11eb-8560-7b8f9603adad.png" style="background:#07C4C9; border-radius: 12px;"/>
 </h1>
+ 
 
 <p align="center">
   <a href="#-tecnologias">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-usage">Usage</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-participants">Participants</a>
 </p>
 
 <br>
