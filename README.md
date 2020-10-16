@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Happy" title="Happy" src="https://user-images.githubusercontent.com/62508848/96302086-88ef5d00-0fce-11eb-8560-7b8f9603adad.png" style="background-color:#07C4C9; border-radius: 12px;"/>
+    [#07C4C9]<img alt="Happy" title="Happy" src="https://user-images.githubusercontent.com/62508848/96302086-88ef5d00-0fce-11eb-8560-7b8f9603adad.png" />
 </h1>
  
 
