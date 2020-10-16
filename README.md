@@ -1,16 +1,20 @@
 <h1 align="center">
-    <img alt="Happy" title="Happy" src="https://user-images.githubusercontent.com/62508848/96302086-88ef5d00-0fce-11eb-8560-7b8f9603adad.png" />
+    <img alt="Happy" title="Happy" src="https://user-images.githubusercontent.com/62508848/96305462-49c40a80-0fd4-11eb-9bef-8ee1d0c71bb3.png" />
 </h1>
  
 
 <p align="center">
-  <a href="#-tecnologias">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-usage">Usage</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-participants">Participants</a>
 </p>
 
 <br>
+
+## 💻 Project
+
+Happy is an application that connects people to institutional care homes to make many children's day happier 💜
 
 <p align="center">
   <img alt="happyweb" title="happyweb" src="https://user-images.githubusercontent.com/62508848/96304316-44fe5700-0fd2-11eb-8671-7d242b01e051.gif" />
@@ -31,17 +35,13 @@ This project was developed with the following technologies:
 - [TypeORM](https://typeorm.io/#/)
 - [Docker](https://www.docker.com/)
 
-## 💻 Project
-
-Happy is an application that connects people to institutional care homes to make many children's day happier 💜
-
 ## Usage
 
 Be sure to create the database container (I used docker) and correctly configure the ormconfig.json. 
 Then...
 
  ### API
-  #$ cd server
+    $ cd server
 
     $ yarn
   
