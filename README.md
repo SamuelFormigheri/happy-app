@@ -1,57 +1,69 @@
 <h1 align="center">
-    <img alt="Happy" title="Happy" src=".github/logo.svg" />
+    <img alt="Happy" title="Happy" src="https://user-images.githubusercontent.com/62508848/96302086-88ef5d00-0fce-11eb-8560-7b8f9603adad.png" />
 </h1>
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
-</p>
-
-<p align="center">
- <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=15C3D6&labelColor=000000" alt="PRs welcome!" />
-
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=15C3D6&labelColor=000000">
 </p>
 
 <br>
 
 <p align="center">
-  <img alt="Happy" src=".github/happy.png" width="100%">
+  <img alt="happyweb" title="happyweb" src="https://user-images.githubusercontent.com/62508848/96304316-44fe5700-0fd2-11eb-8671-7d242b01e051.gif" />
 </p>
 
-## 🚀 Tecnologias
+<p align="center">
+  <img alt="happymobile" title="happymobile" src="https://user-images.githubusercontent.com/62508848/96303376-aa514880-0fd0-11eb-96f5-72d52e3d9a8f.gif" />
+</p>
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+## 🚀 Technologies
+
+This project was developed with the following technologies:
 
 - [Node.js](https://nodejs.org/en/)
 - [React](https://reactjs.org)
 - [React Native](https://facebook.github.io/react-native/)
-- [Expo](https://expo.io/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [TypeORM](https://typeorm.io/#/)
+- [Docker](https://www.docker.com/)
 
-## 💻 Projeto
+## 💻 Project
 
-O Happy é uma aplicação que conecta pessoas à casas de acolhimento institucional para fazer o dia de muitas crianças mais feliz 💜
+Happy is an application that connects people to institutional care homes to make many children's day happier 💜
 
-## 🔖 Layout
+## Usage
 
-Nos links abaixo você encontra o layout do projeto web e também do mobile. Lembrando que você precisa ter uma conta no [Figma](http://figma.com/) para acessá-lo.
+Be sure to create the database container (I used docker) and correctly configure the ormconfig.json. 
+Then...
 
-- [Layout Web](https://www.figma.com/file/mDEbnoojksG4w8sOxmudh3/Happy-Web)
-- [Layout Mobile](https://www.figma.com/file/X27FfVxAgy9f5IFa7ONlph/Happy-Mobile)
+ ### API
+  #$ cd server
 
-## 🧠 Desafio
+    $ yarn
+  
+    $ yarn typeorm migration:run
+    
+ ### Start the API
+ 
+    $ yarn dev:server
 
-No link a seguir você encontra o guia no Notion referente aos desafios propostos para que você possa percorrer a milha extra e incrementar ainda mais essa aplicação. Lá também você encontra um guia mostrando todo o passo a passo de como realizar o deploy tanto do backend quanto do frontend.
 
-- [Desafio Happy 2.0](https://www.notion.so/Vers-o-2-0-do-Happy-c754db7a4d41469e8c2d00fcf75392c4)
+ ### Web App
+  
+    $ yarn
+    
+    $ yarn start
+    
+ ### Mobile App
+  
+    $ yarn
+    
+    $ yarn android
+   
 
-## :memo: Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+## Participants
 
----
-
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
+[Samuel Formigheri](https://github.com/SamuelFormigheri)
