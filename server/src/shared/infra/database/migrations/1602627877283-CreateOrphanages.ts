@@ -55,6 +55,11 @@ export class CreateOrphanages1602627877283 implements MigrationInterface {
                         isNullable: false
                     },
                     {
+                        name: 'whatsapp',
+                        type: 'varchar',
+                        isNullable: false
+                    },
+                    {
                         name: 'created_at',
                         type: 'timestamp',
                         default: 'now()'

@@ -27,6 +27,9 @@ class Orphanage {
     @Column()
     open_on_weekends: boolean;
 
+    @Column()
+    whatsapp: string;
+
     @CreateDateColumn()
     created_at: Date;
 

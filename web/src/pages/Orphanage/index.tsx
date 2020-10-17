@@ -22,6 +22,7 @@ interface IOrphanage {
   instructions: string;
   opening_hours: string;
   open_on_weekends: boolean;
+  whatsapp: string;
   images: IImage[];
 }
 
@@ -116,7 +117,7 @@ export default function Orphanage() {
 
               <button type="button" className="contact-button">
                 <FaWhatsapp size={20} color="#FFF" />
-                Entrar em contato
+                <a href={`https://wa.me/${orphanage.whatsapp}`} target="_blank" rel="noopener noreferrer" className="contact-button">Entrar em contato</a>
               </button>
             </div>
           </div>

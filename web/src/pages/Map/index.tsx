@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import { Link } from 'react-router-dom';
-import {FiPlus, FiArrowRight} from 'react-icons/fi';
+import {FiPlus, FiArrowRight, FiArrowLeft} from 'react-icons/fi';
 import { Map as MapLeaflet, TileLayer, Marker, Popup } from 'react-leaflet';
 
 import mapMarker from '../../assets/icons/map-marker.svg';
@@ -37,8 +37,13 @@ const Map: React.FC = () => {
         </header>
 
         <footer>
-            <strong>Caxias do Sul</strong>
-            <span>Rio Grande do Sul</span>
+            <Link to="/">
+                <FiArrowLeft size={24} color="#FFF" />
+            </Link>
+            <div>
+              <strong>Caxias do Sul</strong>
+              <span>Rio Grande do Sul</span>
+            </div>
         </footer>
       </Aside>
 

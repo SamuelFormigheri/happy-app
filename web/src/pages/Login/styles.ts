@@ -59,7 +59,7 @@ export const AnimationContainer = styled.div`
         }
     }
     > a{
-        color: #5636d3;
+        color: #3a3a3a;
         display: flex;
         align-items: center;
         margin-top: 24px;
@@ -70,7 +70,7 @@ export const AnimationContainer = styled.div`
             margin-right: 16px;
         }
         &:hover{
-            color: ${shade(0.2, "#FF9000")}
+            color: ${shade(0.2, "#F4EDE8")}
         }
     }
 `;

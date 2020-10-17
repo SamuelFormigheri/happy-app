@@ -157,7 +157,8 @@
     border-radius: 20px;
     color: #FFFFFF;
     font-weight: 800;
-  
+    text-decoration: none;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -165,6 +166,11 @@
     transition: background-color 0.2s;
   }
   
+  .orphanage-details .orphanage-details-content button.contact-button a {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+
   .orphanage-details .orphanage-details-content button.contact-button svg {
     margin-right: 16px;
   }

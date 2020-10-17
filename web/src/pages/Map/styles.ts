@@ -93,11 +93,39 @@ export const Aside = styled.div`
 
     footer{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         line-height: 24px;
 
-        strong{
-            font-weight: 800;
+        div{
+          display: flex;
+          flex-direction: column;
+          margin-left: 10px;
+          strong{
+              font-weight: 800;
+          }
+        }
+
+        a{
+          width: 48px;
+          height: 48px;
+        
+          border: 0;
+        
+          background: #12AFCB;
+          border-radius: 16px;
+        
+          cursor: pointer;
+        
+          transition: background-color 0.2s;
+        
+          display: flex;
+          justify-content: center;
+          align-items: center;
+    
+          &:hover{
+            background: #17D6EB;
+          }
         }
     }
+
 `;

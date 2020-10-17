@@ -18,6 +18,7 @@ interface IRequest {
     instructions: string;
     opening_hours: string;
     open_on_weekends: boolean;
+    whatsapp: string;
     images: IImage[];
 }
 
@@ -47,6 +48,7 @@ class OrphanageCreateService {
             instructions: obj.instructions,
             opening_hours: obj.opening_hours,
             open_on_weekends: obj.open_on_weekends,
+            whatsapp: obj.whatsapp,
             images: obj.images
         });
         orphanage.images.map(image => this.storageProvider.saveFile(image.path));

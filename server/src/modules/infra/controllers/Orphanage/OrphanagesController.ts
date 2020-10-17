@@ -20,7 +20,7 @@ export default class OrphanagesController{
         return response.json(OrphanageView.render(orphanage));
     }
     async create(request :Request, response :Response) :Promise<Response>{
-        const { name, latitude, longitude, about, instructions, opening_hours, open_on_weekends } = request.body;
+        const { name, latitude, longitude, about, instructions, opening_hours, open_on_weekends, whatsapp } = request.body;
 
         const schema = Yup.object().shape({
             name: Yup.string().required(),
@@ -28,7 +28,8 @@ export default class OrphanagesController{
             longitude: Yup.number().required(),
             about: Yup.string().required(),
             instructions: Yup.string().required(),
-            opening_hours: Yup.string().required()
+            opening_hours: Yup.string().required(),
+            whatsapp: Yup.string().required()
         });
         
         await schema.validate({
@@ -37,7 +38,8 @@ export default class OrphanagesController{
             longitude, 
             about, 
             instructions, 
-            opening_hours
+            opening_hours,
+            whatsapp
         },{
             abortEarly: false
         });
@@ -59,6 +61,7 @@ export default class OrphanagesController{
             instructions,
             opening_hours,
             open_on_weekends: booleanOpenOnWeekends,
+            whatsapp,
             images: images
         });   
 
